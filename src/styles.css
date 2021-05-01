@@ -1,0 +1,25 @@
+:root{
+    --black: black;
+    --white: white;
+    --font: "Source Sans Pro";
+    --fsize: 1.25rem;
+    --container: "800px";
+}
+
+body{
+    max-width: var(--container);
+    background-color: var(--white);
+    color: var(--black);
+    font-family: var(--font);
+    font-size: var(--fsize);
+}
+
+#passage-start img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#passage-start code {
+    background-color: aliceblue;
+    color: #444444;
+}

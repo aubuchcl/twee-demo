@@ -1,0 +1,30 @@
+::StoryData
+{
+  "ifid": "9D695889-F9CF-4E2F-94D8-6461BCE16B98",
+  "format": "SugarCube",
+  "format-version": "2.30.0",
+  "start": "Start"
+}
+
+::StoryTitle
+My Demo of Twine
+
+:: Start [test things]{"metadata": true}
+
+If you look at this image you can see how the tags I set up for this section are implemented as <code>tags = "test things"</code>
+[img[images/example-one.png]]
+<<print 2+2>>
+<<set $met_alice = "hello">>
+<<print $met_alice>>
+$met_alice
+I can add spacing in my twee file because this content area will not terminate until I reach the next header declaration.
+<strong> Click this link to move forward</strong>
+[[This is a link|Next Passage]]
+
+:: Next Passage
+Here is how you'd have multiple routing options through links
+
+[[Option One|Add Provider]]
+[[Option Two|Create Environment]]
+[[Option Three|Deploy Container]]
+
