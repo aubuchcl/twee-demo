@@ -12,7 +12,7 @@ My Demo of Twine
 :: Start [test things]{"metadata": true}
 
 If you look at this image you can see how the tags I set up for this section are implemented as <code>tags = "test things"</code>
-[img[images/example-one.png]]
+[img[example-one.png]]
 <<print 2+2>>
 <<set $met_alice = "hello">>
 <<print $met_alice>>
